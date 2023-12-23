@@ -71,7 +71,7 @@ class ApprenantController extends Controller
     //FONCTION DE MODIFICATION
     public function update(Request $request, $id)
     {
-        // Récupération de l'élément à modifier depuis le modèle
+        // Récupération de l'élément à modifier depuis le modèle Apprenant
         $app = Apprenant::findOrFail($id);
 
         // Mettre à jour les données avec celles du formulaire
